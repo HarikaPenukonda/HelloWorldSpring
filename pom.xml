@@ -29,6 +29,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-jersey</artifactId>
 		</dependency>
+		<!-- Spring MVC is added automatically with this dependency -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -61,3 +62,10 @@
 	</build>
 
 </project>
+
+		<!-- Bill of materialss
+		A certain combination of jars and their versions that work well which is been approved by spring boot
+		The Parent version instructs Spring or Maven about the required versions -->
+		
+		
+		
