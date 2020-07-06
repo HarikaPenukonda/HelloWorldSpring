@@ -2,7 +2,7 @@ package com.penukondah1.HelloWorld.Model;
 
 public class Student {
 	
-	private int sid;
+	private String sid;
 	private String sname;
 	private String dept;
 	
@@ -12,18 +12,23 @@ public class Student {
 	}
 	
 	/* A parameterized contructor which takes the arguments and intializes the object */
-	public Student(int sid, String sname, String dept) {
+	public Student(String sid, String sname, String dept) {
 		super();
 		this.sid = sid;
 		this.sname = sname;
 		this.dept = dept;
 	}
-	public int getSid() {
+	
+	
+	
+	public String getSid() {
 		return sid;
 	}
-	public void setSid(int sid) {
+
+	public void setSid(String sid) {
 		this.sid = sid;
 	}
+
 	public String getSname() {
 		return sname;
 	}
