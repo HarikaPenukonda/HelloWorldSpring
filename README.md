@@ -27,7 +27,10 @@ A student can have multiple Courses and a Course can have multiple lessons
 4. **PUT** /studetnts/id --> Updates the student record.
 5. **DELETE** /topics/id --> Deletes the student record.
 
-
+## Business Service
+In Spring business services are typically Singleton. When the application starts up spring creates an instance of this service and then it keeps that in its memory(registers that instance)
+**How to declare that the particular class is business service?**
+By using **@Service** annotation, which is a stereotype annotation marks a class as a spring service.
 
 
 
