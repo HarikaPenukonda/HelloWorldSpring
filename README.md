@@ -12,18 +12,20 @@ The Parent version instructs Spring or Maven about the required versions
 4. Useful for microservice architecture
 
 ## Spring MVC Controller
-A Spring MVC application builds these controllers so that we know that when a request comes in we have proper response.These controllers are simple java classes which map a URI and an HTTP method to some functionality.These methods are annotated with two pieces of information one is the URI that controller is going to handle when there is a request comming in and the HTTP method that the controller method is gonna handle.
+A Spring MVC application builds these controllers so that we know that when a request comes in we have proper response.These controllers are simple java classes which map a URI and an HTTP method to some functionality.
+These methods are annotated with two pieces of information one, is the URI that controller is going to handle when there is a request comming in and the HTTP method that the controller method is gonna handle.
 Spring MVC detects rest controller and knew that the response probably need to be JSON, MVC does the conversion of Java Objects into JSON.It does a class path scan and then its gonna return the response based on the request.
 
 ## Rest API
 Resources(Entities) : Student, Course, Lesson
 A student can have multiple Courses and a Course can have multiple lessons
+
 ### Student
-**GET** /students --> Gets all student details 
-**GET** /students/id --> Gets details of an individual student
-**POST** /students --> Create a new record of student
-**PUT** /studetnts/id --> Updates the student record
-**DELETE** /topics/id --> Deletes the student record
+1. **GET** /students --> Gets all student details. 
+2. **GET** /students/id --> Gets details of an individual student.
+3. **POST** /students --> Create a new record of student.
+4. **PUT** /studetnts/id --> Updates the student record.
+5. **DELETE** /topics/id --> Deletes the student record.
 
 
 
