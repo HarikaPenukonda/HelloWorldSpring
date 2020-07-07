@@ -29,11 +29,34 @@ A student can have multiple Courses and a Course can have multiple lessons
 
 ## Business Service
 In Spring business services are typically Singleton. When the application starts up spring creates an instance of this service and then it keeps that in its memory(registers that instance)
+
 **How to declare that the particular class is business service?**
+
 By using **@Service** annotation, which is a stereotype annotation marks a class as a spring service.
 
+### Starting a Boot App
+1. Spring Initalizr
+2. Spring Boot CLI(Command Line Interface)
+3. STS IDE
 
+### Spring dependencies
+1. Spring Web - Full-stack web development with tomcat and Spring MVC
 
+### Customizing Spring Boot
+
+application.properities - a way to customize our spring application 
+
+### Spring Data JPA : The Data Tier
+JPA - Java Persistence API, its basically a specification that lets you do ORM(Object-Relational Mapping) when we are connecting to a relational database.An SQL database is typically a relational database we have tables with rows and columns. When we need to connect from your java application to a relational database we use JDBC and run SQL queries which run on relational database and then we get the results and convert it into object instances.
+
+Java classes  --> classes and objects
+
+ORM maps entity classes into SQL tables so when we connect to the database you provide some kind of metadata on our entity classes.
+There is no need of doing the query and mapping by ourself, the framework handles it for us.
+
+JPA is a way to use ORM which lets you configure our entity classes and give it to a framework, so that the framework handles conversion from SQL read queries to object instances.
+
+Spring Data JPA ia a seperate project which lets you make working with ORM tool even easier.
 
 
 
